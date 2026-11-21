@@ -6,7 +6,7 @@ function max(matrix) {
     // Внутрішній цикл перебирає конкретні числа в рядку
     for (const num of row) {
       if (num > maxNumber) {
-        maxNumber = num; // Якщо знайшли більше число — запам'ятовуємо його
+        maxNumber = num; // Якщо знайшли більше число - запам'ятовуємо його
       }
     }
   }
